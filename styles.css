@@ -1,0 +1,257 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url('img/background-page.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    min-height: 100vh;
+    overflow-x: hidden; 
+    margin: 1rem; 
+}
+
+
+.main-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* En-tête */
+header {
+    background-color: #fff5cc;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    position: relative; 
+}
+
+header h1 { 
+    font-size: 5rem;
+    flex-grow: 1;
+    text-align: center; 
+    font-family: "Piedra", serif; 
+    font-weight: 400; 
+    text-shadow: 4px 4px 4px #ffcf68;
+    position: absolute; 
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+} 
+
+header .logo {
+    width: 5rem; 
+    height: 5rem;
+}
+
+/* Bloc de musique */
+.liste-musiques {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: center;
+    background-color: #fff5cc;
+    padding: 1.25rem;
+    margin: 0 auto;
+}
+
+.music-item {
+    display: flex;
+    position: relative;
+    justify-content: flex-start; /* commmence à gauche */
+    align-items: flex-start;
+    width: 100%;
+    background-size: cover;
+    padding: 5%;
+    margin: 5%;
+    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
+    height: 29rem;
+    border: 2px solid #ffcf68; 
+    background-image: url("${blocFonds}");
+}
+
+.music-item .cover {
+    width: 45%; /* 45% de la largeur */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("${musique.cover}"); /*image provenant du json */
+    border-radius: 5px;
+}
+
+.music-item .text-box {
+    position: absolute;
+    width: 75%; 
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 2rem;
+    margin-left: 5%; 
+}
+
+.music-item h2 {
+    font-weight: bold;
+    color: #ffcc00;
+    text-shadow: 4px 4px 4px #ffffff; 
+}
+
+.music-item p {
+    margin: 0.625rem 0;
+}
+
+.music-item { position: relative; 
+} 
+
+ .icon-spotify, .icon-youtube { 
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem; 
+    width: 3rem; 
+    height: 3rem;
+
+ } 
+
+  .icon-spotify {
+     right: 5rem; /* espace entre Spotify et YouTube */ 
+    }
+    .play-pause { 
+        position: absolute; 
+        bottom: 0.5rem;
+        left: 20%; 
+        background-color: #010101; 
+        border: 3px #e6b800;
+        color:  rgb(230, 188, 23);
+        padding: 0.625rem; 
+        cursor: pointer; 
+        font-size: 1rem;
+        border-radius: 0.3125rem; 
+        margin: 0.625rem 1rem 0.625rem 0; 
+         }
+
+     .show-credits { 
+        position: absolute; 
+        bottom: 1rem; 
+        left: 35%;
+        background-color: #ffcc00; 
+        color: rgb(0, 0, 0);
+        padding: 0.625rem; 
+        cursor: pointer; 
+        font-size: 1rem; 
+        border-radius: 0.3125rem; 
+         
+    }
+
+/* Pied de page */
+footer {
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    margin-top: auto;
+    margin: 0; 
+}
+
+footer section h3 {
+    margin-bottom: 1rem;
+}
+
+footer section p {
+    font-size: 0.875rem;
+    color: #ccc;
+}
+
+.play-pause:hover,
+.show-credits:hover {
+    background-color: #7a7253;
+}
+
+/* police google fonts */
+.form-title {
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-weight: 700;
+}
+
+/* Formulaire */
+form {
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 2rem auto;
+    max-width: 75%; /* Ajusté à 75% */
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #f0d01e;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ffcc00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e6b800;
+}
+
+.credits {
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #f4f4f4;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: left 0.3s ease-in-out;
+    z-index: 2;
+    display: none; /* Ajouté pour masquer les crédits par défaut */
+  }
+  
+  .credits.show {
+    display: block; /* Affiche les crédits quand la classe "show" est ajoutée */
+  }
+
+  .preview {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px; 
+    margin: 20px auto; 
+    box-sizing: border-box;
+}

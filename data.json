@@ -1,0 +1,154 @@
+[
+    {
+        "musique": "Daniel Caesar avec Kali Uchi - Get You",
+        "audioSrc": "audio/daniel.mp3",
+        "explication": "Daniel Caesar est un chanteur canadien reconnu pour ses ballades R&B émouvantes et ses paroles introspectives. Kali Uchi, quant à elle, est une artiste américaine aux influences variées, mêlant R&B, soul et pop. Ensemble, ils ont créé une véritable perle du R&B avec cette chanson sortie en 2017. Les voix envoûtantes de Daniel Caesar et Kali Uchi, combinées aux mélodies douces, apportent une profonde sensation d'apaisement.",
+        "urlSpotify": "https://open.spotify.com/intl-fr/track/7zFXmv6vqI4qOt4yGf3jYZ",
+        "urlYoutube": "https://www.youtube.com/watch?v=EQWKdwvXh-o&ab_channel=DanielCaesar-Topic",
+        "blocFonds": "img/bloc-fonds/daniel.jpg",
+        "cover": "img/cover-0.jpg",
+        "credits": {
+            "Producteurs": ["MAUVAISES CHOSES", "Matthew Burnett", "Jordan Evans"],
+            "Écrivains": ["Daniel César", "Kali Uchis", "Matthew Tavares", "Matthew Burnett", "Jordan Evans"],
+            "Programmeur de batterie": ["Alex Sowinski", "Jordan Evans"],
+            "Batterie": ["Alex Sowinski", "Jordan Evans"],
+            "Ingénieur de mixage": ["Matthew Tavares", "Jordan Evans", "Riley Bell"],
+            "Ingénieurs": ["Matthew Tavares", "Jordan Evans", "Riley Bell"],
+            "Production supplémentaire": "Matthieu Tavares",
+            "Chant": ["Daniel César", "Kali Uchis"],
+            "Guitare": "Ian Cully",
+            "Claviers": ["Matthew Burnett", "Chester Hansen"],
+            "Guitare basse": "Wes Allen"
+        }
+    },
+    {
+        "musique": "Vacra - Moscou",
+        "audioSrc": "audio/moscou.mp3",
+        "explication": "Vacra est un artiste émergent sur la scène musicale française. Avec sa chanson 'Moscou', il nous transporte dans un univers mélodieux et percutant. Sortie récemment, cette chanson se distingue par la voix unique de Vacra.",
+        "urlSpotify": "https://open.spotify.com/intl-fr/track/5Sp0sP5tYe5Yo4k4DWgLei",
+        "urlYoutube": "https://www.youtube.com/watch?v=xRTkOThLTVQ&ab_channel=Vacra-Topic",
+        "blocFonds": "img/bloc-fonds/moscou.jpg",
+        "cover": "img/cover-1.jpg",
+        "credits": {
+            "Producteurs": ["A.L.V Beats", "BGRZ", "Narco Verra"],
+            "Auteur": "Vacra",
+            "Label": ["Carthage Music", "Convergence Music", "Araï Music"],
+            "Distributeurs": ["Carthage Music", "Universal Music France"]
+        }
+    },
+    {
+        "musique": "J Hus avec Drake - Who Told You",
+        "audioSrc": "audio/jhus.mp3",
+        "explication": "'Who Told You' est une collaboration entre J Hus, un rappeur britannique connu pour son mélange unique d'afrobeat et de dancehall, et Drake, un rappeur, chanteur et compositeur canadien. Sortie en été 2023, ce morceau est un mélange d'afrobeat et de rap, avec une instrumentalisation accrocheuse et des rythmes entraînants caractéristiques du style de J Hus.",
+        "urlSpotify": "https://open.spotify.com/intl-fr/track/40EXFgNMOIQRQOwJZ8mJkC",
+        "urlYoutube": "https://www.youtube.com/watch?v=FlJQudt_OtU&ab_channel=JHusVEVO",
+        "blocFonds": "img/bloc-fonds/jhus.jpg",
+        "cover": "img/cover-2.jpg",
+        "credits": {
+            "Producteur": "DJ Bellek",
+            "Auteur": "Guy2Bezbar",
+            "Voix supplémentaires": "Rapi Sati",
+            "Distributeur": "Sony Music Entertainment France",
+            "Label": ["Infinity Music Group", "Blue Magic Corp"]
+        }
+    },
+    {
+        "musique": "Monsieur Nov - Quand vient la nuit part 2",
+        "audioSrc": "audio/nov.mp3",
+        "explication": "Monsieur Nov est sans doute mon artiste préféré et le meilleur artiste R&B français à mes yeux. Cela fait plus de 10 ans qu'il évolue dans l'industrie musicale, mais il n'est malheureusement pas reconnu à sa juste valeur. Sa musique reflète son immense talent et sa capacité à transmettre des émotions profondes à travers ses mélodies et ses paroles.",
+        "urlSpotify": "https://open.spotify.com/intl-fr/track/6hpGSgI1VQujLOBAJUEY8x",
+        "urlYoutube": "https://www.youtube.com/watch?v=ej_SkapUzko&ab_channel=INTERLUDES",
+        "blocFonds": "img/bloc-fonds/nov.jpg",
+        "cover": "img/cover-3.jpg",
+        "credits": {
+            "Producteur": "Zeg P",
+            "Auteur": "Monsieur Nov",
+            "Ingénieur du son": "Qronos Studio",
+            "Distributeur": "Interludes Publishing"
+        }
+    },
+    {
+        "musique": "Rihanna, Kanye West et Paul McCartney - FourFiveSeconds",
+        "audioSrc": "audio/rihanna.mp3",
+        "explication": "'FourFiveSeconds' est une collaboration intergénérationnelle unique entre Rihanna, Kanye West et Paul McCartney. Sortie en 2015, ce morceau se distingue par sa simplicité et la mise en valeur de la guitare acoustique de Paul McCartney, qui ajoute une dimension chaleureuse à la chanson. Ce que j'aime particulièrement, c'est la voix originale et unique de Rihanna, qui brille tout au long du morceau.",
+        "urlSpotify": "https://open.spotify.com/intl-fr/track/78TTtXnFQPzwqlbtbwqN0y",
+        "urlYoutube": "https://www.youtube.com/watch?v=kt0g4dWxEBo&ab_channel=RihannaVEVO",
+        "blocFonds": "img/bloc-fonds/rihanna.jpg",
+        "cover": "img/cover-4.jpg",
+        "credits": {
+            "Producteurs": ["Kuk Harrell", "David Longstreth", "Paul McCartney", "Noah Goldstein", "Kanye West", "MIKE DEAN", "Dallas Austin"],
+            "Auteurs": ["CyHi", "Rihanna", "David Longstreth", "Noah Goldstein", "Elon Rutberg", "Ty Dolla $ign", "KIRBY", "Kanye West", "Paul McCartney", "MIKE DEAN", "Dallas Austin"],
+            "Ingénieurs": ["Zeke Mishanec", "Jordan Heskett", "Brandon Wood", "Jeremy Hartney", "Brendan Morawski"],
+            "Ingénieurs du mixage": "Manny Marroquin",
+            "Ingénieurs assistants": ["Ike Schultz", "Jeff Jackson", "Chris Galland"],
+            "Ingénieurs du son": ["Marcos Tovar", "Noah Goldstein", "MIKE DEAN"],
+            "Chœurs": "Paul McCartney",
+            "Label": ["Roc Nation", "Westbury Road"],
+            "Guitare": "Paul McCartney",
+            "Guitare basse": "MIKE DEAN",
+            "Guitare Acoustique": "Paul McCartney"
+        }
+    },
+    {
+        "musique": "PLK - Dis moi oui ",
+        "audioSrc": "audio/plk.mp3",
+        "explication": "PLK est un jeune rappeur français qui s'est rapidement fait un nom dans le monde de la musique. Sortie en 2018, 'Dis-moi oui' est l'une des premières chansons de PLK que j'ai écoutées, et c'est sans doute l'un de ses meilleurs titres à mes yeux. Au long de cette musique, PLK raconte une histoire personnelle et poignante, abordant des thèmes tels que les relations amoureuses, les doutes et les espoirs.",
+        "urlSpotify": "https://open.spotify.com/intl-fr/track/59GBDiYkJs1Hg6mriZltz0",
+        "urlYoutube": "https://www.youtube.com/watch?v=kQSNck-9cJE&ab_channel=PLKTV",
+        "blocFonds": "img/bloc-fonds/plk.jpg",
+        "cover": "img/cover-5.jpg",
+        "credits": {
+            "Producteur": "S2keyz",
+            "Auteur": "PLK",
+            "Label": ["Enna Music France", "Panenka Music", "Le Sommet", "ETMG"],
+            "Ingénieur du son": "Krisy",
+            "Trompette": "S2keyz"   
+        }
+    },
+    {
+        "musique": "Guy2Bezbar - La Calle 3",
+        "audioSrc": "audio/guy2.mp3",
+        "explication": "Guy2Bezbar, rappeur originaire de Paris, s’impose sur la scène musicale avec son style unique. Sortie en 2021, 'La Calle 3' se démarque par un instrumental percutant et un beat entraînant, reflétant parfaitement son énergie et sa créativité. L'alchimie entre ses paroles et le rythme captivant en fait un morceau emblématique de son répertoire.",
+        "urlSpotify": "https://open.spotify.com/intl-fr/album/0D1dYXaizIpW4TsKi7BD14",
+        "urlYoutube": "https://www.youtube.com/watch?v=0r6oeI2lXuY&ab_channel=Guy2bezbar",
+        "blocFonds": "img/bloc-fonds/guy2.jpg",
+        "cover": "img/cover-6.jpg",
+        "credits": {
+            "Producteur": "DJ Bellek",
+            "Auteur": "Guy2Bezbar",
+            "Voix supplémentaires": "Rapi Sati",
+            "Distributeur": "Sony Music Entertainment France",
+            "Label": ["Infinity Music Group", "Blue Magic Corp"]
+        }
+    },
+    {
+        "musique": "Vacra - Agent Secret",
+        "audioSrc": "audio/agentsecret.mp3",
+        "explication": "Vacra, artiste talentueux de la scène musicale française, marque les esprits avec son titre 'Agent Secret'. Ce morceau captivant joue avec des éléments de la musique électronique et du hip-hop.",
+        "urlSpotify": "https://open.spotify.com/intl-fr/track/3IqFkcR6A3LgFzzNTehZ4T",
+        "urlYoutube": "https://www.youtube.com/watch?v=2gm_Bw5DNdo&ab_channel=Vacra-Topic",
+        "blocFonds": "img/bloc-fonds/agentsecret.jpg",
+        "cover": "img/cover-7.jpg",
+        "credits": {
+            "Producteurs": ["A.L.V Beats", "BGRZ", "Narco Verra"],
+            "Auteur": "Vacra",
+            "Label": ["Carthage Music", "Convergence Music", "Araï Music"],
+            "Distributeurs": ["Carthage Music", "Universal Music France"]
+        }
+    },
+    {
+        "musique": "Wejdene avec Dadju - Comme Avant",
+        "audioSrc": "audio/dadju.mp3",
+        "explication": "Wejdene et Dadju s’unissent pour offrir un titre empreint d’émotion avec 'Comme avant'. Cette collaboration met en lumière la complémentarité de leurs voix, alliant douceur et puissance. Porté par une mélodie envoûtante et des paroles touchantes, ce morceau invite à la nostalgie et célèbre l’amour dans toute sa complexité. Une alliance artistique qui ne laisse personne indifférent.",
+        "urlSpotify": "https://open.spotify.com/intl-fr/track/47nJBT9KJwJjBbFR7un0e1",
+        "urlYoutube": "https://www.youtube.com/watch?v=qczRpIe52po&ab_channel=Wejdene-Topic",
+        "blocFonds": "img/bloc-fonds/dadju.jpg",
+        "cover": "img/cover-8.jpg",
+        "credits": {
+            "Chanteuse": "Wejdene",
+            "featuring": "Dadju",
+            "Producteurs": ["Zeg P", "Seezy", "Manu Manu"],
+            "Auteur": "Dadju"
+        }
+    }    
+]

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+     <!--Police du h2 du formulaire -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Tinos:wght@700&display=swap" rel="stylesheet">
+      <!--Police du H1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&family=Poppins:wght@700&family=Tinos&display=swap" rel="stylesheet">
+    <title>M'Tunes</title>
+</head>
+<body>
+    <header>
+        <img src="img/favicon.png" alt="Logo de M'Tunes" class="logo">
+        <h1>M'Tunes</h1>
+    </header>
+    <main>
+        <!-- la liste des musiques -->
+        <div class="liste-musiques"></div>
+        <!-- bloc de musique -->
+        <div class="music-item">
+            <div class="cover">
+            </div>
+            <div class="text-box">
+            </div>
+        </div>
+
+        
+        <!-- le formulaire -->
+        <form id="formulaireMusique">
+            <h2 class="form-title">Participez à M'Tunes en ajoutant une musique ou un album de votre choix !</h2>
+            <label for="userEmail">Email <span style="color: red;">*</span> :</label> 
+            <input type="email" id="userEmail" name="userEmail" placeholder="adresse.email@mail.com" pattern=".+@.+" required> 
+             <br>
+            <label for="artisteTitre">Artiste + Titre <span style="color: red;">*</span> :</label>
+            <input type="text" id="artisteTitre" required>
+            <br>
+            <label for="descriptionMusique">Description <span style="color: red;">*</span> :</label>
+            <textarea id="descriptionMusique" required></textarea>
+            <br>
+            <label for="audioUrl">URL de l'audio <span style="color: red;">*</span> :</label>
+            <input type="url" id="audioUrl" placeholder="https://exemple.com/audio.mp3" required>
+            <br>
+            <label for="coverImage">Image de couverture <span style="color: red;">*</span> :</label>
+            <input type="file" id="coverImage" accept="image/*" required>
+            <button type="submit">Envoyer la suggestion</button>
+        </form>
+        <!-- prévisualisation user -->
+         <div class="preview">
+        <section id="previewUserMusique">
+            <h2 id="userTitre"></h2>
+            <audio id="userAudioPreview" controls>
+                <source src="" type="audio/mpeg">
+            </audio>
+            <p id="userDescription">Description de la musique</p>
+            <img id="userCoverPreview" src="#" alt="Cover Preview">
+        </section>
+    </div>
+    </main>
+    <footer>
+        <section>
+            <h3>Mentions légales</h3>
+            <p><strong>Éditeur du site</strong><br> Le site a été développé par : Moina SAID MZE<br>
+                Pour toute question ou information, vous pouvez contacter l'éditeur à l'adresse suivante :
+                <a href="mailto:moinatouma.said-mze@edu.univ-eiffel.fr">moinatouma.said-mze@edu.univ-eiffel.fr</a>.
+            </p>
+            <p><strong>Collecte et traitement des données personnelles</strong><br>
+                Les données que vous avez fournies sur notre site sont conservées pendant un an sur une base de données sécurisée.
+            </p>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
